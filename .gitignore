@@ -1,0 +1,39 @@
+# Android Build artifacts
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android app build directories
+app/build/
+app/.cxx/
+
+# Gradle files
+.gradle/
+gradle-app.setting
+
+# Node modules (for web part)
+node_modules/
+dist/
+.vite/
+
+# IDE
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files with secrets
+.env.local
+.env.*.local
